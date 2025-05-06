@@ -1,0 +1,7 @@
+.navList{
+
+}
+.navList ul{
+    list-style: none;
+    display:flex;
+}
