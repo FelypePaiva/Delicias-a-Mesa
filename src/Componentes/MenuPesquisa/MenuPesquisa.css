@@ -1,0 +1,17 @@
+.pesquisarReceita{
+    display:flex;
+    align-items: center;
+    background-color: lightgrey!important;
+    padding:.5rem;
+    border-radius:3rem;
+}
+
+
+.pesquisarReceita input{
+    margin-left:0.1rem;
+    border: none;
+    outline: none;
+    background-color: lightgrey!important;
+    overflow: hidden;
+
+}

@@ -1,7 +1,10 @@
-.navList{
-
-}
-.navList ul{
-    list-style: none;
+.navList li{
     display:flex;
+    cursor: pointer;
+}
+
+.navList ul{
+    display:flex;
+    gap: 3rem;
+    list-style: none;
 }

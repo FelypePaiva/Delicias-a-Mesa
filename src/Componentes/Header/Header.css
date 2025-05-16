@@ -5,4 +5,11 @@
 
 .headerNav{
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 90%;
 }
