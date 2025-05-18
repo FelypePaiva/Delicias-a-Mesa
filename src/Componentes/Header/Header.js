@@ -1,7 +1,8 @@
 import './Header.css';
-import Logo from '../Logo/Logo'
-import MenuNavegacao from '../MenuNavegacao/MenuNavegacao';
-import MenuPesquisa from '../MenuPesquisa/MenuPesquisa'
+import Logo from 'Componentes/Logo/Logo'
+import MenuNavegacao from 'Componentes/MenuNavegacao/MenuNavegacao';
+import MenuPesquisa from 'Componentes/MenuPesquisa/MenuPesquisa'
+import BannerPrincipal from 'Componentes/BannerPrincipal/BannerPrincipal.js';
 
 function Header(){
     return(
@@ -12,6 +13,7 @@ function Header(){
             <MenuNavegacao/>
             <MenuPesquisa/>
         </div>
+            <BannerPrincipal/>
         </header>
     );
 }
