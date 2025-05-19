@@ -1,0 +1,39 @@
+.listagemHorizontal{
+    display: flex;
+    justify-content: space-evenly;
+    gap:2rem;
+}
+.tituloListagem{
+    font-size:39px;
+    font-weight: 700;
+    color:#2C2B2B;
+}
+.containerListagem{
+    padding:3rem 0;
+}
+.receitaItem{
+    text-align:initial;
+    height: 470px;
+    width:400px;
+    border-radius:33px;
+}
+.receitaItem img{
+    border-radius:33px 33px 0 0;
+}
+
+.listagemHorizontal{
+    padding:3rem 0;
+}
+.receitaDesc{
+    padding:1rem;
+    background-color:#F5F2F2;
+    border-radius:0 0 33px 33px;
+
+}
+.receitaDesc button{
+    background-color: #FFDB63;
+    padding: 9px 33px;
+    border:none;
+    border-radius: 32px;
+    cursor: pointer;
+}
