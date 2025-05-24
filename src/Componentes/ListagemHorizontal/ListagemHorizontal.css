@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-evenly;
     gap:2rem;
-    height:800px;
 }
 .tituloListagem{
     font-size:39px;

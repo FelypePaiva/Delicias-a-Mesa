@@ -1,0 +1,23 @@
+.footer{
+    background-color: #FFDB63;
+
+}
+.footer .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height:300px;
+    position:relative;
+    
+}
+footer .logo{
+    position: absolute;
+    left: 0;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+footer .logo img{
+    width: 2rem;
+}

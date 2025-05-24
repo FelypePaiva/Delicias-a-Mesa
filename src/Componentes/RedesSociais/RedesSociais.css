@@ -1,0 +1,17 @@
+.redesSociais{
+    margin-left:15%;
+}
+.redesSociaisList{
+    display:flex;
+    gap: 10px;
+}
+.redeSocialIcon{
+    background-color:#FFE9A1;
+    border-radius: 7px;
+    width: 44px;
+    height: 44px;;
+}
+.redeSocialIcon img{
+    width: 32px;
+    height: 32px;
+}
