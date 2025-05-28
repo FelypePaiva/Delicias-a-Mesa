@@ -28,6 +28,7 @@
 }
 
 .bannerPrincipal span{
+    text-align: center;
     width:50%;
     position:relative;
     z-index:3;

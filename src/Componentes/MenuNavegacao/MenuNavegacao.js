@@ -1,12 +1,12 @@
 import '../MenuNavegacao/MenuNavegacao.css'
-
+import { NavLink } from 'react-router';
 
 function MenuNavegacao(){
     return(
         <nav className="navList">
             <ul>
-                <li>Home</li>
-                <li>Receitas</li>
+                <li><NavLink to='/'>Home</NavLink></li>
+                <li><NavLink to='/receitas' end>Receitas</NavLink></li>
                 <li>Sobre Nós</li>
             </ul>
         </nav>
